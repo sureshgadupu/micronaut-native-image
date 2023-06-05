@@ -9,7 +9,7 @@ on: # yamllint disable-line rule:true
 
 jobs:
   build-native-image:
-    name: Quarkus Native Application on ${{ matrix.os }}
+    name: Micronaut Native Application on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:

@@ -1,8 +1,8 @@
-name: Quarkus GraalVM Native Image Build
+name: Micronaut GraalVM Native Image Build
 on: [push, pull_request]
 jobs:
   build:
-    name: Quarkus Native Application on ${{ matrix.os }}
+    name: Micronaut Native Application on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
