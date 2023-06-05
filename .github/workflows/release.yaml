@@ -18,7 +18,7 @@ jobs:
             artifact_name: micronaut-native-image
             asset_name: micronaut-native-image-linux-amd64
           - os: windows-latest
-            artifact_name: micronaut-native-image
+            artifact_name: micronaut-native-image.exe
             asset_name: micronaut-native-image-windows-amd64.exe
           - os: macos-latest
             artifact_name: micronaut-native-image
